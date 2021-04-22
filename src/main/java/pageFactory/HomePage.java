@@ -15,7 +15,6 @@ public class HomePage extends TestBase {
 	
 	
 	
-
 	public HomePage() throws IOException {
 		PageFactory.initElements(driver, this);
 	}
@@ -24,4 +23,5 @@ public class HomePage extends TestBase {
 		homeLink.click();
 	}
 
+		
 }

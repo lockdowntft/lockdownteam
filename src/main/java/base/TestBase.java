@@ -17,7 +17,7 @@ public class TestBase {
 	
 	public TestBase() throws IOException {
 		prop=new Properties();
-		FileInputStream fis = new FileInputStream ("C:\\Users\\sbaru\\eclipse-workspace\\TftLockDown\\src\\main\\java\\property\\config.properties");
+		FileInputStream fis = new FileInputStream ("/Users/ahmedshuily/eclipse-workspace/lockdownteam/src/main/java/property/config.properties");
 		prop.load(fis);
 	}
 	
@@ -25,7 +25,7 @@ public class TestBase {
 	public void initialization () {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/ahmedshuily/Documents/Driver/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -35,7 +35,7 @@ public class TestBase {
 	}
 	
 	
-//	public void ShutDown() {
-//		driver.close();
-//	}
+	public void ShutDown() {
+		driver.close();
+	}
 }

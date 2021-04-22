@@ -31,15 +31,15 @@ public class HomePageLinkFunctionaltyTest extends TestBase {
 
 	@When("^user clicks home link$")
 	public void user_clicks_home_link() throws InterruptedException {
-//		driver.findElement(By.linkText("Home")).click();
-		
+
 		hm.clickhomeLink();
-		Thread.sleep(5000);
+		
+		
 	}
 	
 	@Then("^home page should open$")
 	public void home_page_should_open() {
-		 Assert.assertEquals(driver.getTitle(), "Transfotech Academy - IT Institute");
+		 Assert.assertEquals(driver.getTitle(), "Transfotech Academy – IT Institute");
 		 System.out.println(driver.getTitle());
 		    
 	}
