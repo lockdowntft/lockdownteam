@@ -3,6 +3,9 @@ package step_defination;
 import java.io.IOException;
 
 import base.TestBase;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class CourseWeOfferFunctionality extends TestBase{
 
