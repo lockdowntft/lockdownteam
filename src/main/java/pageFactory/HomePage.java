@@ -22,6 +22,9 @@ public class HomePage extends TestBase {
 	public void clickhomeLink() {
 		homeLink.click();
 	}
-
+public String HomePageTitel() {
+	return driver.getTitle();
+	
+}
 		
 }

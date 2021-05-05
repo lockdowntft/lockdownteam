@@ -20,19 +20,40 @@
 Feature: Title of your feature
  courses link functionality inthe homePage
 
-  @tag1
-  Scenario: Title of your scenario
+  Scenario: Data Analytics & Visualization course link functionality test
+  
     Given User is in the Home Page
     When User click to Data Analytics link 
     Then User should lands Data Analytics & Visualization page
+    
+    Scenario: Full Stack QA Engineering course link functionality test
+    
+    Given User is in the Home Page
     When User click to Full Stack QA Engineering link
     Then User should lands Full Stack QA Engineering page
+    
+    Scenario: Business Analyst course link functionality test
+    
+    Given User is in the Home Page
     When User click to Business Analyst link
     Then User should land Business Analyst page
+    
+    Scenario: Cyber Security Professional course link functionality test
+    
+    Given User is in the Home Page
     When User click to Cyber Security Professional link
     Then User should lands Cyber Security Professional page
+    
+    Scenario: Explore all Courses link functionality test
+    
+    Given User is in the Home Page
     When User click to Explore all Courses link 
     Then User should land Explore all Courses page
     
-
- 
+    Scenario: Cloud Engineering Courses link functionality test
+    
+    Given User is in the Home Page
+    When User click to Explore all Courses link 
+    And User click to the Cloud Engineering Courses link
+    Then Uaser should land Cloud Engineering Courses page
+   
