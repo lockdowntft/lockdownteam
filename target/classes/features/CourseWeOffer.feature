@@ -17,7 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 
-Feature: Title of your feature
+Feature: 
  courses link functionality inthe homePage
 
   Scenario: Data Analytics & Visualization course link functionality test
